@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ru">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Book</title>
 </head>
 <body>
-$END$
+
+<center>
+    <h1>Название книги:<br>{{book_id.title}}</h1>
+    <p>Описание книги:<br>{{book_id.description}}</p>
+    <img src="{{book_id.image.url}}" alt="" width="300" height="400">
+    <p>Жанр:<br>{{book_id.genre}}</p>
+    <p>Цена:<br>{{book_id.price}} сом</p>
+    <p>Дата публикации: {{book_id.created_dates}}</p>
+    <p>Дата обновления: {{book_id.updated_dates}}</p>
+</center>
+
 </body>
 </html>
