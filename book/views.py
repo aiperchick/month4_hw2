@@ -9,4 +9,4 @@ def books(requst):
 
 def book_full_view(request, id):
     book_id = get_list_or_404(models.Book, id=id)
-    return render(request, 'books.full.html', {'books_id': book_id})
+    return render(request, 'book.full.html', {'books_id': book_id})

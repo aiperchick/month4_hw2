@@ -1,0 +1,18 @@
+body{
+    background: url("https://bogatyr.club/uploads/posts/2021-11/thumbs/1636951510_2-bogatyr-club-p-zadnii-fon-chernii-2.jpg");
+}
+
+footer {
+  display: block;
+    text-align: center;
+  padding: 3px;
+  background-color: darkgray;
+  color: dimgrey;
+}
+
+hr {
+    border: none;
+    color: aliceblue;
+    background-color: red;
+    height: 10px;
+   }
