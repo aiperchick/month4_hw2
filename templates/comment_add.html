@@ -3,11 +3,11 @@
     <br>
     <hr>
 <div class="p-3 mb-2 bg-info  text-white" style="width: 25rem;">
-  <h1>Изменить данные</h1>
-  <form method="post" enctype="multipart/form-data">
+  <h1>Добавить комментарий</h1>
+  <form action="/add-comment/" method="post" enctype="multipart/form-data">
     {% csrf_token %}
     {{form.as_p}}
-    <input type="submit" value="Изменить">
+    <button type="submit">Сохранить</button>
   </form>
 </div>
     <br>
