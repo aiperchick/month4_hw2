@@ -44,7 +44,6 @@ class UpdateBookShow(generic.UpdateView):
         return super(UpdateBookShow, self).form_valid(form=form)
 
 
-
 class DeleteBookShow(generic.DeleteView):
     template_name = 'delete_bookshow.html'
     success_url = '/books/'

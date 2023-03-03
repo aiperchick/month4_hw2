@@ -3,3 +3,8 @@ Django==4.1.6
 Pillow==9.4.0
 sqlparse==0.4.3
 tzdata==2022.7
+
+python-dotenv~=0.21.1
+django-request~=1.6.2
+beautifulsoup4~=4.11.2
+requests~=2.28.2

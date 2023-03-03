@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doramy List</title>
+</head>
+<body>
+<center>
+  {% for i in object_list %}
+  <h2><a href="{{i.name}}">Перейти к дораме</a></h2>
+        <h1>{{i.series}}</h1>
+        <h2>{{i.country}}</h2>
+        <h3>{{i.genre}}</h3>
+    <img src="{{i.images}}" alt="" width="170" height="235">
+    {% endfor %}
+</center>
+</body>
+</html>

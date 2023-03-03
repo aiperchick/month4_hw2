@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doramy Parser</title>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data">
+  {{% csrf_token %}}
+  {{form.as_p}}
+  <button><a type="submit">начать парсинг</a></button>
+</form>
+<button><a href="/doramy_list/">показать список дорам</a></button>
+</body>
+</html>
